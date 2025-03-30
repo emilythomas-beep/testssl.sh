@@ -15,7 +15,7 @@ use Text::Diff;
 
 my $tests = 0;
 my $prg="./testssl.sh";
-my $baseline_csv="./t/baseline_data/default_testssl.csvfile";
+my $baseline_csv="./t/baseline_data/testssl.csv";
 my $cat_csv="tmp.csv";
 my $check2run="-p -s -P --fs -h -U -c -q --ip=one --color 0 --csvfile $cat_csv";
 my $uri="testssl.sh";
